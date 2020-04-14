@@ -72,7 +72,8 @@ class Box_License implements \Box\InjectionAwareInterface
             }
         }
 
-        return \Box_Version::TYPE_FREE;
+        // #mlg# return \Box_Version::TYPE_FREE;
+        return \Box_Version::TYPE_PRO;
     }
 
     public function getDetails($from_server = false)
